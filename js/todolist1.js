@@ -1,5 +1,5 @@
 $(function () {
-    var a = 0;
+    var a = 1;
     $('#title').keyup(function (e) {
         if (e.keyCode == 13) {
             if ($(this).val().trim() == '') {
